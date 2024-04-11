@@ -7,8 +7,84 @@
   box-sizing: border-box;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
+.flash-message {
+  border-radius: 5px;
+  padding: 16px 24px;
+  margin: 16px 0px;
+}
+ 
+.flash-message.notice {
+  background-color: #bcdfff;
+  color: #0067C0;
+  border: solid 1px #0067C0;
+}
+ 
+.flash-message.alert {
+  background-color: #ffd4d1;
+  color: #930403;
+  border: solid 1px #930403;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text {
+  margin: 20px 40px;
+}
+
+.errors {
+  margin: 5px 40px;
+}
+
+.index-title {
+  margin-left: 20px;
+}
+
+.create-book{
+  margin-left: 20px;
+}
+
+table {
+  margin-top:5px;
   margin: 20px;
+}
+
+table td{
+  padding : 5px 10px;
+}
+
+.show-title {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.show-body {
+  margin: 20px 0 30px 30px;
+}
+
+.link {
+  margin-left: 20px;
+}
+
+.edit-h1 {
+  margin: 20px;
+}
+
+.edit-box {
+  display:flex;
+  flex-flow: column;
+}
+
+.edit-title {
+  margin-left: 20px;
+}
+
+.edit-body {
+  margin-left: 20px;
+}
+
+.box {
+  margin: 5px 20px;
 }
